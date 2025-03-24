@@ -9,4 +9,13 @@ class Sabitler {
   );
 
   static BorderRadius borderRadius = BorderRadius.circular(24);
+
+   static final TextStyle dersSayisiStyle = GoogleFonts.quicksand(
+    fontSize: 16, fontWeight: FontWeight.w600, color: anaRenk);
+
+  static final TextStyle ortalamaStyle = GoogleFonts.quicksand(
+    fontSize: 45, fontWeight: FontWeight.w800, color: anaRenk
+  );
+   static final dropdownPadding  =EdgeInsets.symmetric(horizontal: 16,vertical: 10);
+  
 }
